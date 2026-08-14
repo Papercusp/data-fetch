@@ -1,0 +1,29 @@
+{
+  "name": "@papercusp/data-fetch",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Generic versioned read-cache: conditional-GET (If-None-Match/304) over @papercusp/kv-persist (IndexedDB) with stale-while-revalidate. The non-grid, non-Zero generalization of 'version every query' — a query's version is a scalar (ETag / count+max hash) instead of a bloom manifest. Hosts useVersionedResource.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": { "types": "./src/index.ts", "import": "./src/index.ts", "default": "./src/index.ts" }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@papercusp/kv-persist": "*",
+    "@papercusp/kv-persist-indexeddb": "*"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  },
+  "devDependencies": {
+    "@papercusp/test-config": "*",
+    "vitest": "^4.1.5"
+  }
+}
