@@ -1,1 +1,1 @@
-{"version":"4.1.10","results":[[":src/prewarm.test.ts",{"duration":10.861231000000032,"failed":false}],[":src/cache-telemetry.test.ts",{"duration":9.819932999999992,"failed":false}],[":src/versioned-fetch.test.ts",{"duration":65.77734699999996,"failed":false}]]}
+{"version":"4.1.10","results":[[":src/prewarm.test.ts",{"duration":11.285163999999952,"failed":false}],[":src/cache-telemetry.test.ts",{"duration":8.616287999999997,"failed":false}],[":src/versioned-fetch.test.ts",{"duration":62.445761999999945,"failed":false}]]}
