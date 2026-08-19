@@ -10,7 +10,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "test": "vitest run --passWithNoTests"
+    "test": "vitest run"
   },
   "dependencies": {
     "@papercusp/kv-persist": "*",
